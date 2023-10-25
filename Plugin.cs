@@ -30,7 +30,7 @@ namespace GorillaCheatWare
             var harmony = new Harmony(modGUID);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
-
+        // UnlockComp Cheat (Maybe Working)
         private static void UnlockComp()
         {
             if (Input.LeftTrigger)
